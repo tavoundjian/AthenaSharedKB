@@ -1,4 +1,4 @@
-; Tue Apr 12 16:27:07 PDT 2016
+; Tue Apr 26 21:08:27 PDT 2016
 ; 
 ;+ (version "3.5")
 ;+ (build "Build 663")
@@ -6,20 +6,20 @@
 ([BROWSER_SLOT_NAMES] of  Property_List
 
 	(properties
-		[OpioidGuideline_ProjectKB_Class3810]
-		[OpioidGuideline_ProjectKB_Class3811]
-		[OpioidGuideline_ProjectKB_Class3812]
-		[OpioidGuideline_ProjectKB_Class3813]
-		[OpioidGuideline_ProjectKB_Class3814]
-		[OpioidGuideline_ProjectKB_Class3815]
-		[OpioidGuideline_ProjectKB_Class3816]
-		[OpioidGuideline_ProjectKB_Class3817]
-		[OpioidGuideline_ProjectKB_Class3818]
-		[OpioidGuideline_ProjectKB_Class3819]
-		[OpioidGuideline_ProjectKB_Class3820]
-		[OpioidGuideline_ProjectKB_Class3821]
-		[OpioidGuideline_ProjectKB_Class3822]
-		[OpioidGuideline_ProjectKB_Class3823]))
+		[OpioidGuideline_ProjectKB_Class4109]
+		[OpioidGuideline_ProjectKB_Class4110]
+		[OpioidGuideline_ProjectKB_Class4111]
+		[OpioidGuideline_ProjectKB_Class4112]
+		[OpioidGuideline_ProjectKB_Class4113]
+		[OpioidGuideline_ProjectKB_Class4114]
+		[OpioidGuideline_ProjectKB_Class4115]
+		[OpioidGuideline_ProjectKB_Class4116]
+		[OpioidGuideline_ProjectKB_Class4117]
+		[OpioidGuideline_ProjectKB_Class4118]
+		[OpioidGuideline_ProjectKB_Class4119]
+		[OpioidGuideline_ProjectKB_Class4120]
+		[OpioidGuideline_ProjectKB_Class4121]
+		[OpioidGuideline_ProjectKB_Class4122]))
 
 ([ChronicPainOpioid10-26-05_ProjectKB_Instance_12448] of  Widget
 
@@ -785,23 +785,23 @@
 ([ChronicPainOpioid_ProjectKB_Instance_2041] of  Map
 
 	(entries
-		[OpioidGuideline_ProjectKB_Class3839]
-		[OpioidGuideline_ProjectKB_Class3841]
-		[OpioidGuideline_ProjectKB_Class3843]
-		[OpioidGuideline_ProjectKB_Class3864]
-		[OpioidGuideline_ProjectKB_Class3868]
-		[OpioidGuideline_ProjectKB_Class3908]
-		[OpioidGuideline_ProjectKB_Class3913]
-		[OpioidGuideline_ProjectKB_Class3915])
+		[OpioidGuideline_ProjectKB_Class4138]
+		[OpioidGuideline_ProjectKB_Class4140]
+		[OpioidGuideline_ProjectKB_Class4142]
+		[OpioidGuideline_ProjectKB_Class4146]
+		[OpioidGuideline_ProjectKB_Class4167]
+		[OpioidGuideline_ProjectKB_Class4207]
+		[OpioidGuideline_ProjectKB_Class4212]
+		[OpioidGuideline_ProjectKB_Class4214])
 	(referenced_maps
-		[OpioidGuideline_ProjectKB_Class3869]
-		[OpioidGuideline_ProjectKB_Class3844]
-		[OpioidGuideline_ProjectKB_Class3842]
-		[OpioidGuideline_ProjectKB_Class3840]
-		[OpioidGuideline_ProjectKB_Class3865]
-		[OpioidGuideline_ProjectKB_Class3909]
-		[OpioidGuideline_ProjectKB_Class3824]
-		[OpioidGuideline_ProjectKB_Class3914]))
+		[OpioidGuideline_ProjectKB_Class4141]
+		[OpioidGuideline_ProjectKB_Class4168]
+		[OpioidGuideline_ProjectKB_Class4143]
+		[OpioidGuideline_ProjectKB_Class4208]
+		[OpioidGuideline_ProjectKB_Class4123]
+		[OpioidGuideline_ProjectKB_Class4147]
+		[OpioidGuideline_ProjectKB_Class4139]
+		[OpioidGuideline_ProjectKB_Class4213]))
 
 ([ChronicPainOpioid_ProjectKB_Instance_2044] of  String
 
@@ -3422,103 +3422,6 @@
 ([KB_358305_Instance_1750] of  Property_List
 )
 
-([KB_411550_Class3734] of  Map
-
-	(entries
-		[KB_411550_Class3735]
-		[KB_411550_Class3737]
-		[KB_411550_Class3738]
-		[KB_411550_Class3740]
-		[KB_411550_Class3741]
-		[KB_411550_Class3743]
-		[KB_411550_Class3745]
-		[KB_411550_Class3747]
-		[KB_411550_Class3748])
-	(referenced_maps
-		[KB_411550_Class3742]
-		[KB_411550_Class3744]
-		[KB_411550_Class3746]
-		[KB_411550_Class3739]
-		[KB_411550_Class3736]))
-
-([KB_411550_Class3735] of  Map_Entry
-
-	(key "add_name_on_instance_form")
-	(key_class "java.lang.String")
-	(value "false")
-	(value_class "java.lang.String"))
-
-([KB_411550_Class3736] of  Map
-)
-
-([KB_411550_Class3737] of  Map_Entry
-
-	(key "InstanceGraphWidget.eon2_Instance_130002.steps")
-	(key_class "java.lang.String")
-	(value "KB_411550_Class3736")
-	(value_class "java.util.Map"))
-
-([KB_411550_Class3738] of  Map_Entry
-
-	(key "annotation_proj_exists")
-	(key_class "java.lang.String")
-	(value "yes")
-	(value_class "java.lang.String"))
-
-([KB_411550_Class3739] of  Map
-)
-
-([KB_411550_Class3740] of  Map_Entry
-
-	(key "InstanceGraphWidget.eon2_Instance_1.steps")
-	(key_class "java.lang.String")
-	(value "KB_411550_Class3739")
-	(value_class "java.util.Map"))
-
-([KB_411550_Class3741] of  Map_Entry
-
-	(key "change_tracking_active")
-	(key_class "java.lang.String")
-	(value "false")
-	(value_class "java.lang.String"))
-
-([KB_411550_Class3742] of  Map
-)
-
-([KB_411550_Class3743] of  Map_Entry
-
-	(key "InstanceGraphWidget.eon2_Instance_0.steps")
-	(key_class "java.lang.String")
-	(value "KB_411550_Class3742")
-	(value_class "java.util.Map"))
-
-([KB_411550_Class3744] of  Map
-)
-
-([KB_411550_Class3745] of  Map_Entry
-
-	(key "InstanceGraphWidget.eon2_Instance_130001.steps")
-	(key_class "java.lang.String")
-	(value "KB_411550_Class3744")
-	(value_class "java.util.Map"))
-
-([KB_411550_Class3746] of  Map
-)
-
-([KB_411550_Class3747] of  Map_Entry
-
-	(key "InstanceGraphWidget.eon2_Instance_2.steps")
-	(key_class "java.lang.String")
-	(value "KB_411550_Class3746")
-	(value_class "java.util.Map"))
-
-([KB_411550_Class3748] of  Map_Entry
-
-	(key "suppress_instance_counting")
-	(key_class "java.lang.String")
-	(value "false")
-	(value_class "java.lang.String"))
-
 ([KB_523565_Instance_1392] of  Widget
 
 	(height 805)
@@ -5259,6 +5162,103 @@
 	(boolean_value FALSE)
 	(name "ButtonDisplayed-Delete Instance"))
 
+([KB_973768_Class3734] of  Map
+
+	(entries
+		[KB_973768_Class3735]
+		[KB_973768_Class3737]
+		[KB_973768_Class3738]
+		[KB_973768_Class3740]
+		[KB_973768_Class3741]
+		[KB_973768_Class3743]
+		[KB_973768_Class3745]
+		[KB_973768_Class3747]
+		[KB_973768_Class3748])
+	(referenced_maps
+		[KB_973768_Class3739]
+		[KB_973768_Class3736]
+		[KB_973768_Class3744]
+		[KB_973768_Class3746]
+		[KB_973768_Class3742]))
+
+([KB_973768_Class3735] of  Map_Entry
+
+	(key "add_name_on_instance_form")
+	(key_class "java.lang.String")
+	(value "false")
+	(value_class "java.lang.String"))
+
+([KB_973768_Class3736] of  Map
+)
+
+([KB_973768_Class3737] of  Map_Entry
+
+	(key "InstanceGraphWidget.eon2_Instance_130002.steps")
+	(key_class "java.lang.String")
+	(value "KB_973768_Class3736")
+	(value_class "java.util.Map"))
+
+([KB_973768_Class3738] of  Map_Entry
+
+	(key "annotation_proj_exists")
+	(key_class "java.lang.String")
+	(value "yes")
+	(value_class "java.lang.String"))
+
+([KB_973768_Class3739] of  Map
+)
+
+([KB_973768_Class3740] of  Map_Entry
+
+	(key "InstanceGraphWidget.eon2_Instance_1.steps")
+	(key_class "java.lang.String")
+	(value "KB_973768_Class3739")
+	(value_class "java.util.Map"))
+
+([KB_973768_Class3741] of  Map_Entry
+
+	(key "change_tracking_active")
+	(key_class "java.lang.String")
+	(value "false")
+	(value_class "java.lang.String"))
+
+([KB_973768_Class3742] of  Map
+)
+
+([KB_973768_Class3743] of  Map_Entry
+
+	(key "InstanceGraphWidget.eon2_Instance_0.steps")
+	(key_class "java.lang.String")
+	(value "KB_973768_Class3742")
+	(value_class "java.util.Map"))
+
+([KB_973768_Class3744] of  Map
+)
+
+([KB_973768_Class3745] of  Map_Entry
+
+	(key "InstanceGraphWidget.eon2_Instance_130001.steps")
+	(key_class "java.lang.String")
+	(value "KB_973768_Class3744")
+	(value_class "java.util.Map"))
+
+([KB_973768_Class3746] of  Map
+)
+
+([KB_973768_Class3747] of  Map_Entry
+
+	(key "InstanceGraphWidget.eon2_Instance_2.steps")
+	(key_class "java.lang.String")
+	(value "KB_973768_Class3746")
+	(value_class "java.util.Map"))
+
+([KB_973768_Class3748] of  Map_Entry
+
+	(key "suppress_instance_counting")
+	(key_class "java.lang.String")
+	(value "false")
+	(value_class "java.lang.String"))
+
 ([Lipid_dashboard_ProjectKB_Class24019] of  Widget
 
 	(is_hidden FALSE)
@@ -5911,954 +5911,954 @@
 ([OpioidGuideline_ProjectKB_Class3750] of  Property_List
 )
 
-([OpioidGuideline_ProjectKB_Class3751] of  Boolean
-
-	(boolean_value FALSE)
-	(name "ButtonDisplayed-View References to Value"))
-
-([OpioidGuideline_ProjectKB_Class3752] of  Property_List
-)
-
-([OpioidGuideline_ProjectKB_Class3753] of  Property_List
-)
-
-([OpioidGuideline_ProjectKB_Class3754] of  Boolean
-
-	(boolean_value FALSE)
-	(name "ButtonDisplayed-View References to Value"))
-
-([OpioidGuideline_ProjectKB_Class3755] of  Boolean
-
-	(boolean_value FALSE)
-	(name "ButtonDisplayed-View References to Value"))
-
-([OpioidGuideline_ProjectKB_Class3756] of  Widget
-
-	(height 60)
-	(is_hidden FALSE)
-	(name "strength_of_recommendation")
-	(property_list [OpioidGuideline_ProjectKB_Class3757])
-	(widget_class_name "edu.stanford.smi.protege.widget.ClsFieldWidget")
-	(width 200)
-	(x 200)
-	(y 300))
-
-([OpioidGuideline_ProjectKB_Class3757] of  Property_List
-)
-
-([OpioidGuideline_ProjectKB_Class3758] of  Widget
-
-	(height 60)
-	(is_hidden FALSE)
-	(name "net_benefit")
-	(property_list [OpioidGuideline_ProjectKB_Class3759])
-	(widget_class_name "edu.stanford.smi.protege.widget.ClsFieldWidget")
-	(width 200)
-	(x 0)
-	(y 420))
-
-([OpioidGuideline_ProjectKB_Class3759] of  Property_List
-)
-
-([OpioidGuideline_ProjectKB_Class3760] of  Widget
-
-	(height 60)
-	(is_hidden FALSE)
-	(name "rule_in_condition")
-	(property_list [OpioidGuideline_ProjectKB_Class3761])
-	(widget_class_name "edu.stanford.smi.protege.widget.InstanceFieldWidget")
-	(width 200)
-	(x 200)
-	(y 360))
-
-([OpioidGuideline_ProjectKB_Class3761] of  Property_List
-
-	(properties
-		[OpioidGuideline_ProjectKB_Class3762]
-		[OpioidGuideline_ProjectKB_Class3763]))
-
-([OpioidGuideline_ProjectKB_Class3762] of  Boolean
-
-	(boolean_value FALSE)
-	(name "ButtonDisplayed-View References to Value"))
-
-([OpioidGuideline_ProjectKB_Class3763] of  Boolean
-
-	(boolean_value FALSE)
-	(name "ButtonDisplayed-Delete Instance"))
-
-([OpioidGuideline_ProjectKB_Class3764] of  Widget
-
-	(height 60)
-	(is_hidden FALSE)
-	(name "Shared_documentation")
-	(property_list [OpioidGuideline_ProjectKB_Class3765])
-	(widget_class_name "edu.stanford.smi.protege.widget.TextFieldWidget")
-	(width 200)
-	(x 0)
-	(y 240))
-
-([OpioidGuideline_ProjectKB_Class3765] of  Property_List
-)
-
-([OpioidGuideline_ProjectKB_Class3766] of  Widget
-
-	(height 120)
-	(is_hidden FALSE)
-	(name "subsidiary_message")
-	(property_list [OpioidGuideline_ProjectKB_Class3767])
-	(widget_class_name "edu.stanford.smi.protege.widget.StringListWidget")
-	(width 200)
-	(x 200)
-	(y 420))
-
-([OpioidGuideline_ProjectKB_Class3767] of  Property_List
-)
-
-([OpioidGuideline_ProjectKB_Class3768] of  Widget
-
-	(height 60)
-	(is_hidden FALSE)
-	(name "fine-grain_priority")
-	(property_list [OpioidGuideline_ProjectKB_Class3769])
-	(widget_class_name "edu.stanford.smi.protege.widget.IntegerFieldWidget")
-	(width 100)
-	(x 0)
-	(y 300))
-
-([OpioidGuideline_ProjectKB_Class3769] of  Property_List
-)
-
-([OpioidGuideline_ProjectKB_Class3770] of  Widget
-
-	(height 300)
-	(is_hidden FALSE)
-	(name "therapeutic_goal")
-	(property_list [OpioidGuideline_ProjectKB_Class3771])
-	(widget_class_name "edu.stanford.smi.protege.widget.InstanceListWidget")
-	(width 200)
-	(x 400)
-	(y 240))
-
-([OpioidGuideline_ProjectKB_Class3771] of  Property_List
-
-	(properties
-		[OpioidGuideline_ProjectKB_Class3772]
-		[OpioidGuideline_ProjectKB_Class3773]))
-
-([OpioidGuideline_ProjectKB_Class3772] of  Boolean
-
-	(boolean_value FALSE)
-	(name "ButtonDisplayed-View References to Value"))
-
-([OpioidGuideline_ProjectKB_Class3773] of  Boolean
-
-	(boolean_value FALSE)
-	(name "ButtonDisplayed-Delete Instance"))
-
-([OpioidGuideline_ProjectKB_Class3774] of  Widget
-
-	(height 60)
-	(is_hidden FALSE)
-	(name "overall_quality_of_evidence")
-	(property_list [OpioidGuideline_ProjectKB_Class3775])
-	(widget_class_name "edu.stanford.smi.protege.widget.ClsFieldWidget")
-	(width 200)
-	(x 200)
-	(y 240))
-
-([OpioidGuideline_ProjectKB_Class3775] of  Property_List
-)
-
-([OpioidGuideline_ProjectKB_Class3776] of  Widget
-
-	(height 60)
-	(is_hidden FALSE)
-	(name "level_of_evidence")
-	(property_list [OpioidGuideline_ProjectKB_Class3777])
-	(widget_class_name "edu.stanford.smi.protege.widget.ClsFieldWidget")
-	(width 200)
-	(x 0)
-	(y 360))
-
-([OpioidGuideline_ProjectKB_Class3777] of  Property_List
-)
-
-([OpioidGuideline_ProjectKB_Class3808] of  Widget
+([OpioidGuideline_ProjectKB_Class3751] of  Widget
 
 	(height 60)
 	(is_hidden FALSE)
 	(name "increase_dose_ceiling")
-	(property_list [OpioidGuideline_ProjectKB_Class3809])
+	(property_list [OpioidGuideline_ProjectKB_Class3752])
 	(widget_class_name "edu.stanford.smi.protege.widget.FloatFieldWidget")
 	(width 100)
 	(x 0)
 	(y 1140))
 
-([OpioidGuideline_ProjectKB_Class3809] of  Property_List
+([OpioidGuideline_ProjectKB_Class3752] of  Property_List
 )
 
-([OpioidGuideline_ProjectKB_Class3810] of  String
+([OpioidGuideline_ProjectKB_Class4082] of  Property_List
+)
+
+([OpioidGuideline_ProjectKB_Class4083] of  Property_List
+)
+
+([OpioidGuideline_ProjectKB_Class4084] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value"))
+
+([OpioidGuideline_ProjectKB_Class4085] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value"))
+
+([OpioidGuideline_ProjectKB_Class4086] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value"))
+
+([OpioidGuideline_ProjectKB_Class4087] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name "strength_of_recommendation")
+	(property_list [OpioidGuideline_ProjectKB_Class4088])
+	(widget_class_name "edu.stanford.smi.protege.widget.ClsFieldWidget")
+	(width 200)
+	(x 200)
+	(y 360))
+
+([OpioidGuideline_ProjectKB_Class4088] of  Property_List
+)
+
+([OpioidGuideline_ProjectKB_Class4089] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name "net_benefit")
+	(property_list [OpioidGuideline_ProjectKB_Class4090])
+	(widget_class_name "edu.stanford.smi.protege.widget.ClsFieldWidget")
+	(width 200)
+	(x 0)
+	(y 480))
+
+([OpioidGuideline_ProjectKB_Class4090] of  Property_List
+)
+
+([OpioidGuideline_ProjectKB_Class4091] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name "rule_in_condition")
+	(property_list [OpioidGuideline_ProjectKB_Class4092])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceFieldWidget")
+	(width 200)
+	(x 200)
+	(y 420))
+
+([OpioidGuideline_ProjectKB_Class4092] of  Property_List
+
+	(properties
+		[OpioidGuideline_ProjectKB_Class4093]
+		[OpioidGuideline_ProjectKB_Class4094]))
+
+([OpioidGuideline_ProjectKB_Class4093] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value"))
+
+([OpioidGuideline_ProjectKB_Class4094] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Instance"))
+
+([OpioidGuideline_ProjectKB_Class4095] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name "Shared_documentation")
+	(property_list [OpioidGuideline_ProjectKB_Class4096])
+	(widget_class_name "edu.stanford.smi.protege.widget.TextFieldWidget")
+	(width 200)
+	(x 0)
+	(y 300))
+
+([OpioidGuideline_ProjectKB_Class4096] of  Property_List
+)
+
+([OpioidGuideline_ProjectKB_Class4097] of  Widget
+
+	(height 120)
+	(is_hidden FALSE)
+	(name "subsidiary_message")
+	(property_list [OpioidGuideline_ProjectKB_Class4098])
+	(widget_class_name "edu.stanford.smi.protege.widget.StringListWidget")
+	(width 200)
+	(x 200)
+	(y 480))
+
+([OpioidGuideline_ProjectKB_Class4098] of  Property_List
+)
+
+([OpioidGuideline_ProjectKB_Class4099] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name "fine-grain_priority")
+	(property_list [OpioidGuideline_ProjectKB_Class4100])
+	(widget_class_name "edu.stanford.smi.protege.widget.IntegerFieldWidget")
+	(width 100)
+	(x 0)
+	(y 360))
+
+([OpioidGuideline_ProjectKB_Class4100] of  Property_List
+)
+
+([OpioidGuideline_ProjectKB_Class4101] of  Widget
+
+	(height 300)
+	(is_hidden FALSE)
+	(name "therapeutic_goal")
+	(property_list [OpioidGuideline_ProjectKB_Class4102])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceListWidget")
+	(width 200)
+	(x 400)
+	(y 300))
+
+([OpioidGuideline_ProjectKB_Class4102] of  Property_List
+
+	(properties
+		[OpioidGuideline_ProjectKB_Class4103]
+		[OpioidGuideline_ProjectKB_Class4104]))
+
+([OpioidGuideline_ProjectKB_Class4103] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value"))
+
+([OpioidGuideline_ProjectKB_Class4104] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Instance"))
+
+([OpioidGuideline_ProjectKB_Class4105] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name "overall_quality_of_evidence")
+	(property_list [OpioidGuideline_ProjectKB_Class4106])
+	(widget_class_name "edu.stanford.smi.protege.widget.ClsFieldWidget")
+	(width 200)
+	(x 200)
+	(y 300))
+
+([OpioidGuideline_ProjectKB_Class4106] of  Property_List
+)
+
+([OpioidGuideline_ProjectKB_Class4107] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name "level_of_evidence")
+	(property_list [OpioidGuideline_ProjectKB_Class4108])
+	(widget_class_name "edu.stanford.smi.protege.widget.ClsFieldWidget")
+	(width 200)
+	(x 0)
+	(y 420))
+
+([OpioidGuideline_ProjectKB_Class4108] of  Property_List
+)
+
+([OpioidGuideline_ProjectKB_Class4109] of  String
 
 	(name "Parameterized_Message")
 	(string_value "label"))
 
-([OpioidGuideline_ProjectKB_Class3811] of  String
+([OpioidGuideline_ProjectKB_Class4110] of  String
 
 	(name "Parameterized_String")
 	(string_value "label"))
 
-([OpioidGuideline_ProjectKB_Class3812] of  String
+([OpioidGuideline_ProjectKB_Class4111] of  String
 
 	(name "Diagnostic_Term_Metaclass")
 	(string_value "%3ANAME"))
 
-([OpioidGuideline_ProjectKB_Class3813] of  String
+([OpioidGuideline_ProjectKB_Class4112] of  String
 
 	(name "Lab_Dictionary_Translation")
 	(string_value "Source_String_in_DB"))
 
-([OpioidGuideline_ProjectKB_Class3814] of  String
+([OpioidGuideline_ProjectKB_Class4113] of  String
 
 	(name "Absolute_Time_Point")
 	(string_value "label"))
 
-([OpioidGuideline_ProjectKB_Class3815] of  String
+([OpioidGuideline_ProjectKB_Class4114] of  String
 
 	(name "Drug_Usage")
 	(string_value "label"))
 
-([OpioidGuideline_ProjectKB_Class3816] of  String
+([OpioidGuideline_ProjectKB_Class4115] of  String
 
 	(name "Medications_Metaclass")
 	(string_value "%3ANAME"))
 
-([OpioidGuideline_ProjectKB_Class3817] of  String
+([OpioidGuideline_ProjectKB_Class4116] of  String
 
 	(name "Medical_Conditions_Metaclass")
 	(string_value "%3ANAME"))
 
-([OpioidGuideline_ProjectKB_Class3818] of  String
+([OpioidGuideline_ProjectKB_Class4117] of  String
 
 	(name "Set_Expression")
 	(string_value "label"))
 
-([OpioidGuideline_ProjectKB_Class3819] of  String
+([OpioidGuideline_ProjectKB_Class4118] of  String
 
 	(name "PrecautionPrioritySetting")
 	(string_value "precaution{%3A}precaution_priority"))
 
-([OpioidGuideline_ProjectKB_Class3820] of  String
+([OpioidGuideline_ProjectKB_Class4119] of  String
 
 	(name "Canonical_Terms_Metaclass")
 	(string_value "label"))
 
-([OpioidGuideline_ProjectKB_Class3821] of  String
+([OpioidGuideline_ProjectKB_Class4120] of  String
 
 	(name "Patient_History_Translation")
 	(string_value "Source_String_in_DB"))
 
-([OpioidGuideline_ProjectKB_Class3822] of  String
+([OpioidGuideline_ProjectKB_Class4121] of  String
 
 	(name "On_Screen_Message")
 	(string_value "label{%3A}display_location{+%28}main_message{%29}"))
 
-([OpioidGuideline_ProjectKB_Class3823] of  String
+([OpioidGuideline_ProjectKB_Class4122] of  String
 
 	(name "Supporting_Material")
 	(string_value "label"))
 
-([OpioidGuideline_ProjectKB_Class3824] of  Map
+([OpioidGuideline_ProjectKB_Class4123] of  Map
 
 	(entries
-		[OpioidGuideline_ProjectKB_Class3825]
-		[OpioidGuideline_ProjectKB_Class3826]
-		[OpioidGuideline_ProjectKB_Class3827]
-		[OpioidGuideline_ProjectKB_Class3828]
-		[OpioidGuideline_ProjectKB_Class3829]
-		[OpioidGuideline_ProjectKB_Class3830]
-		[OpioidGuideline_ProjectKB_Class3831]
-		[OpioidGuideline_ProjectKB_Class3832]
-		[OpioidGuideline_ProjectKB_Class3833]
-		[OpioidGuideline_ProjectKB_Class3834]
-		[OpioidGuideline_ProjectKB_Class3835]
-		[OpioidGuideline_ProjectKB_Class3836]
-		[OpioidGuideline_ProjectKB_Class3837]
-		[OpioidGuideline_ProjectKB_Class3838]))
+		[OpioidGuideline_ProjectKB_Class4124]
+		[OpioidGuideline_ProjectKB_Class4125]
+		[OpioidGuideline_ProjectKB_Class4126]
+		[OpioidGuideline_ProjectKB_Class4127]
+		[OpioidGuideline_ProjectKB_Class4128]
+		[OpioidGuideline_ProjectKB_Class4129]
+		[OpioidGuideline_ProjectKB_Class4130]
+		[OpioidGuideline_ProjectKB_Class4131]
+		[OpioidGuideline_ProjectKB_Class4132]
+		[OpioidGuideline_ProjectKB_Class4133]
+		[OpioidGuideline_ProjectKB_Class4134]
+		[OpioidGuideline_ProjectKB_Class4135]
+		[OpioidGuideline_ProjectKB_Class4136]
+		[OpioidGuideline_ProjectKB_Class4137]))
 
-([OpioidGuideline_ProjectKB_Class3825] of  Map_Entry
+([OpioidGuideline_ProjectKB_Class4124] of  Map_Entry
 
 	(key "OpioidGuideline_Instance_60131")
 	(key_class "java.lang.String")
 	(value "70 220 60 60")
 	(value_class "java.awt.Rectangle"))
 
-([OpioidGuideline_ProjectKB_Class3826] of  Map_Entry
+([OpioidGuideline_ProjectKB_Class4125] of  Map_Entry
 
 	(key "OpioidGuideline_Instance_110008")
 	(key_class "java.lang.String")
 	(value "1420 220 60 60")
 	(value_class "java.awt.Rectangle"))
 
-([OpioidGuideline_ProjectKB_Class3827] of  Map_Entry
+([OpioidGuideline_ProjectKB_Class4126] of  Map_Entry
 
 	(key "OpioidGuideline_Instance_90002")
 	(key_class "java.lang.String")
 	(value "1270 220 60 60")
 	(value_class "java.awt.Rectangle"))
 
-([OpioidGuideline_ProjectKB_Class3828] of  Map_Entry
+([OpioidGuideline_ProjectKB_Class4127] of  Map_Entry
 
 	(key "OpioidGuideline_Instance_60070")
 	(key_class "java.lang.String")
 	(value "220 220 60 60")
 	(value_class "java.awt.Rectangle"))
 
-([OpioidGuideline_ProjectKB_Class3829] of  Map_Entry
+([OpioidGuideline_ProjectKB_Class4128] of  Map_Entry
 
 	(key "OpioidGuideline_Instance_120369")
 	(key_class "java.lang.String")
 	(value "670 220 60 60")
 	(value_class "java.awt.Rectangle"))
 
-([OpioidGuideline_ProjectKB_Class3830] of  Map_Entry
+([OpioidGuideline_ProjectKB_Class4129] of  Map_Entry
 
 	(key "OpioidGuideline_Instance_250000")
 	(key_class "java.lang.String")
 	(value "970 220 60 60")
 	(value_class "java.awt.Rectangle"))
 
-([OpioidGuideline_ProjectKB_Class3831] of  Map_Entry
+([OpioidGuideline_ProjectKB_Class4130] of  Map_Entry
 
 	(key "OpioidGuideline_Instance_60073")
 	(key_class "java.lang.String")
 	(value "370 220 60 60")
 	(value_class "java.awt.Rectangle"))
 
-([OpioidGuideline_ProjectKB_Class3832] of  Map_Entry
+([OpioidGuideline_ProjectKB_Class4131] of  Map_Entry
 
 	(key "OpioidGuideline_Instance_20464")
 	(key_class "java.lang.String")
 	(value "1120 220 60 60")
 	(value_class "java.awt.Rectangle"))
 
-([OpioidGuideline_ProjectKB_Class3833] of  Map_Entry
+([OpioidGuideline_ProjectKB_Class4132] of  Map_Entry
 
 	(key "OpioidGuideline_Class100001")
 	(key_class "java.lang.String")
 	(value "1570 220 60 60")
 	(value_class "java.awt.Rectangle"))
 
-([OpioidGuideline_ProjectKB_Class3834] of  Map_Entry
+([OpioidGuideline_ProjectKB_Class4133] of  Map_Entry
 
 	(key "OpioidGuideline_Instance_70000")
 	(key_class "java.lang.String")
 	(value "520 220 60 60")
 	(value_class "java.awt.Rectangle"))
 
-([OpioidGuideline_ProjectKB_Class3835] of  Map_Entry
+([OpioidGuideline_ProjectKB_Class4134] of  Map_Entry
 
 	(key "OpioidGuideline_Class180006")
 	(key_class "java.lang.String")
 	(value "802 394 60 60")
 	(value_class "java.awt.Rectangle"))
 
-([OpioidGuideline_ProjectKB_Class3836] of  Map_Entry
+([OpioidGuideline_ProjectKB_Class4135] of  Map_Entry
 
 	(key "OpioidGuideline_Class140001")
 	(key_class "java.lang.String")
 	(value "1720 220 60 60")
 	(value_class "java.awt.Rectangle"))
 
-([OpioidGuideline_ProjectKB_Class3837] of  Map_Entry
+([OpioidGuideline_ProjectKB_Class4136] of  Map_Entry
 
 	(key "OpioidGuideline_Instance_120373")
 	(key_class "java.lang.String")
 	(value "820 220 60 60")
 	(value_class "java.awt.Rectangle"))
 
-([OpioidGuideline_ProjectKB_Class3838] of  Map_Entry
+([OpioidGuideline_ProjectKB_Class4137] of  Map_Entry
 
 	(key "OpioidGuideline_Instance_70227")
 	(key_class "java.lang.String")
 	(value "870 70 60 60")
 	(value_class "java.awt.Rectangle"))
 
-([OpioidGuideline_ProjectKB_Class3839] of  Map_Entry
+([OpioidGuideline_ProjectKB_Class4138] of  Map_Entry
 
 	(key "InstanceGraphWidget.OpioidGuideline_Instance_70373.steps")
 	(key_class "java.lang.String")
-	(value "OpioidGuideline_ProjectKB_Class3824")
+	(value "OpioidGuideline_ProjectKB_Class4123")
 	(value_class "java.util.Map"))
 
-([OpioidGuideline_ProjectKB_Class3840] of  Map
+([OpioidGuideline_ProjectKB_Class4139] of  Map
 )
 
-([OpioidGuideline_ProjectKB_Class3841] of  Map_Entry
+([OpioidGuideline_ProjectKB_Class4140] of  Map_Entry
 
 	(key "InstanceGraphWidget.OpioidGuideline_Instance_310358.steps")
 	(key_class "java.lang.String")
-	(value "OpioidGuideline_ProjectKB_Class3840")
+	(value "OpioidGuideline_ProjectKB_Class4139")
 	(value_class "java.util.Map"))
 
-([OpioidGuideline_ProjectKB_Class3842] of  Map
+([OpioidGuideline_ProjectKB_Class4141] of  Map
 )
 
-([OpioidGuideline_ProjectKB_Class3843] of  Map_Entry
+([OpioidGuideline_ProjectKB_Class4142] of  Map_Entry
 
 	(key "InstanceGraphWidget.ChronicPainOpioid_Instance_3.steps")
 	(key_class "java.lang.String")
-	(value "OpioidGuideline_ProjectKB_Class3842")
+	(value "OpioidGuideline_ProjectKB_Class4141")
 	(value_class "java.util.Map"))
 
-([OpioidGuideline_ProjectKB_Class3844] of  Map
+([OpioidGuideline_ProjectKB_Class4143] of  Map
 
 	(entries
-		[OpioidGuideline_ProjectKB_Class3845]
-		[OpioidGuideline_ProjectKB_Class3846]
-		[OpioidGuideline_ProjectKB_Class3847]
-		[OpioidGuideline_ProjectKB_Class3848]
-		[OpioidGuideline_ProjectKB_Class3849]
-		[OpioidGuideline_ProjectKB_Class3850]
-		[OpioidGuideline_ProjectKB_Class3851]
-		[OpioidGuideline_ProjectKB_Class3852]
-		[OpioidGuideline_ProjectKB_Class3853]
-		[OpioidGuideline_ProjectKB_Class3854]
-		[OpioidGuideline_ProjectKB_Class3855]
-		[OpioidGuideline_ProjectKB_Class3856]
-		[OpioidGuideline_ProjectKB_Class3857]
-		[OpioidGuideline_ProjectKB_Class3858]
-		[OpioidGuideline_ProjectKB_Class3859]
-		[OpioidGuideline_ProjectKB_Class3860]
-		[OpioidGuideline_ProjectKB_Class3861]
-		[OpioidGuideline_ProjectKB_Class3862]
-		[OpioidGuideline_ProjectKB_Class3863]))
+		[OpioidGuideline_ProjectKB_Class4144]
+		[OpioidGuideline_ProjectKB_Class4145]))
 
-([OpioidGuideline_ProjectKB_Class3845] of  Map_Entry
-
-	(key "OpioidGuideline_Instance_100003")
-	(key_class "java.lang.String")
-	(value "520 220 60 60")
-	(value_class "java.awt.Rectangle"))
-
-([OpioidGuideline_ProjectKB_Class3846] of  Map_Entry
-
-	(key "OpioidGuideline_Class140006")
-	(key_class "java.lang.String")
-	(value "1220 380 60 60")
-	(value_class "java.awt.Rectangle"))
-
-([OpioidGuideline_ProjectKB_Class3847] of  Map_Entry
-
-	(key "OpioidGuideline_Instance_80257")
-	(key_class "java.lang.String")
-	(value "220 220 60 60")
-	(value_class "java.awt.Rectangle"))
-
-([OpioidGuideline_ProjectKB_Class3848] of  Map_Entry
-
-	(key "OpioidGuideline_Class160000")
-	(key_class "java.lang.String")
-	(value "45 94 60 60")
-	(value_class "java.awt.Rectangle"))
-
-([OpioidGuideline_ProjectKB_Class3849] of  Map_Entry
-
-	(key "OpioidGuideline_Instance_80259")
-	(key_class "java.lang.String")
-	(value "70 220 60 60")
-	(value_class "java.awt.Rectangle"))
-
-([OpioidGuideline_ProjectKB_Class3850] of  Map_Entry
-
-	(key "OpioidGuideline_Instance_90000")
-	(key_class "java.lang.String")
-	(value "370 220 60 60")
-	(value_class "java.awt.Rectangle"))
-
-([OpioidGuideline_ProjectKB_Class3851] of  Map_Entry
-
-	(key "OpioidGuideline_Instance_70214")
-	(key_class "java.lang.String")
-	(value "1170 70 60 60")
-	(value_class "java.awt.Rectangle"))
-
-([OpioidGuideline_ProjectKB_Class3852] of  Map_Entry
-
-	(key "OpioidGuideline_Instance_400526")
-	(key_class "java.lang.String")
-	(value "1420 220 60 60")
-	(value_class "java.awt.Rectangle"))
-
-([OpioidGuideline_ProjectKB_Class3853] of  Map_Entry
-
-	(key "OpioidGuideline_Instance_910005")
-	(key_class "java.lang.String")
-	(value "1720 220 60 60")
-	(value_class "java.awt.Rectangle"))
-
-([OpioidGuideline_ProjectKB_Class3854] of  Map_Entry
-
-	(key "OpioidGuideline_Instance_110000")
-	(key_class "java.lang.String")
-	(value "2170 220 60 60")
-	(value_class "java.awt.Rectangle"))
-
-([OpioidGuideline_ProjectKB_Class3855] of  Map_Entry
-
-	(key "OpioidGuideline_Instance_1090001")
-	(key_class "java.lang.String")
-	(value "1870 220 60 60")
-	(value_class "java.awt.Rectangle"))
-
-([OpioidGuideline_ProjectKB_Class3856] of  Map_Entry
-
-	(key "OpioidGuideline_Instance_220000")
-	(key_class "java.lang.String")
-	(value "1270 220 60 60")
-	(value_class "java.awt.Rectangle"))
-
-([OpioidGuideline_ProjectKB_Class3857] of  Map_Entry
-
-	(key "OpioidGuideline_Instance_160000")
-	(key_class "java.lang.String")
-	(value "1120 220 60 60")
-	(value_class "java.awt.Rectangle"))
-
-([OpioidGuideline_ProjectKB_Class3858] of  Map_Entry
-
-	(key "OpioidGuideline_Instance_120094")
-	(key_class "java.lang.String")
-	(value "970 220 60 60")
-	(value_class "java.awt.Rectangle"))
-
-([OpioidGuideline_ProjectKB_Class3859] of  Map_Entry
-
-	(key "OpioidGuideline_Instance_120093")
-	(key_class "java.lang.String")
-	(value "820 220 60 60")
-	(value_class "java.awt.Rectangle"))
-
-([OpioidGuideline_ProjectKB_Class3860] of  Map_Entry
-
-	(key "OpioidGuideline_Instance_130006")
-	(key_class "java.lang.String")
-	(value "1570 220 60 60")
-	(value_class "java.awt.Rectangle"))
-
-([OpioidGuideline_ProjectKB_Class3861] of  Map_Entry
-
-	(key "OpioidGuideline_Class100001")
-	(key_class "java.lang.String")
-	(value "2320 220 60 60")
-	(value_class "java.awt.Rectangle"))
-
-([OpioidGuideline_ProjectKB_Class3862] of  Map_Entry
-
-	(key "OpioidGuideline_Instance_120095")
-	(key_class "java.lang.String")
-	(value "670 220 60 60")
-	(value_class "java.awt.Rectangle"))
-
-([OpioidGuideline_ProjectKB_Class3863] of  Map_Entry
-
-	(key "OpioidGuideline_Instance_40013")
-	(key_class "java.lang.String")
-	(value "2020 220 60 60")
-	(value_class "java.awt.Rectangle"))
-
-([OpioidGuideline_ProjectKB_Class3864] of  Map_Entry
-
-	(key "InstanceGraphWidget.OpioidGuideline_Instance_30012.steps")
-	(key_class "java.lang.String")
-	(value "OpioidGuideline_ProjectKB_Class3844")
-	(value_class "java.util.Map"))
-
-([OpioidGuideline_ProjectKB_Class3865] of  Map
-
-	(entries
-		[OpioidGuideline_ProjectKB_Class3866]
-		[OpioidGuideline_ProjectKB_Class3867]))
-
-([OpioidGuideline_ProjectKB_Class3866] of  Map_Entry
+([OpioidGuideline_ProjectKB_Class4144] of  Map_Entry
 
 	(key "ChronicPainOpioid10-26-05_Instance_10018")
 	(key_class "java.lang.String")
 	(value "0 0 60 60")
 	(value_class "java.awt.Rectangle"))
 
-([OpioidGuideline_ProjectKB_Class3867] of  Map_Entry
+([OpioidGuideline_ProjectKB_Class4145] of  Map_Entry
 
 	(key "ChronicPainOpioid10-26-05_Instance_10019")
 	(key_class "java.lang.String")
 	(value "120 0 60 60")
 	(value_class "java.awt.Rectangle"))
 
-([OpioidGuideline_ProjectKB_Class3868] of  Map_Entry
+([OpioidGuideline_ProjectKB_Class4146] of  Map_Entry
 
 	(key "InstanceGraphWidget.ChronicPainOpioid10-26-05_Instance_10017.steps")
 	(key_class "java.lang.String")
-	(value "OpioidGuideline_ProjectKB_Class3865")
+	(value "OpioidGuideline_ProjectKB_Class4143")
 	(value_class "java.util.Map"))
 
-([OpioidGuideline_ProjectKB_Class3869] of  Map
+([OpioidGuideline_ProjectKB_Class4147] of  Map
 
 	(entries
-		[OpioidGuideline_ProjectKB_Class3870]
-		[OpioidGuideline_ProjectKB_Class3871]
-		[OpioidGuideline_ProjectKB_Class3872]
-		[OpioidGuideline_ProjectKB_Class3873]
-		[OpioidGuideline_ProjectKB_Class3874]
-		[OpioidGuideline_ProjectKB_Class3875]
-		[OpioidGuideline_ProjectKB_Class3876]
-		[OpioidGuideline_ProjectKB_Class3877]
-		[OpioidGuideline_ProjectKB_Class3878]
-		[OpioidGuideline_ProjectKB_Class3879]
-		[OpioidGuideline_ProjectKB_Class3880]
-		[OpioidGuideline_ProjectKB_Class3881]
-		[OpioidGuideline_ProjectKB_Class3882]
-		[OpioidGuideline_ProjectKB_Class3883]
-		[OpioidGuideline_ProjectKB_Class3884]
-		[OpioidGuideline_ProjectKB_Class3885]
-		[OpioidGuideline_ProjectKB_Class3886]
-		[OpioidGuideline_ProjectKB_Class3887]
-		[OpioidGuideline_ProjectKB_Class3888]
-		[OpioidGuideline_ProjectKB_Class3889]
-		[OpioidGuideline_ProjectKB_Class3890]
-		[OpioidGuideline_ProjectKB_Class3891]
-		[OpioidGuideline_ProjectKB_Class3892]
-		[OpioidGuideline_ProjectKB_Class3893]
-		[OpioidGuideline_ProjectKB_Class3894]
-		[OpioidGuideline_ProjectKB_Class3895]
-		[OpioidGuideline_ProjectKB_Class3896]
-		[OpioidGuideline_ProjectKB_Class3897]
-		[OpioidGuideline_ProjectKB_Class3898]
-		[OpioidGuideline_ProjectKB_Class3899]
-		[OpioidGuideline_ProjectKB_Class3900]
-		[OpioidGuideline_ProjectKB_Class3901]
-		[OpioidGuideline_ProjectKB_Class3902]
-		[OpioidGuideline_ProjectKB_Class3903]
-		[OpioidGuideline_ProjectKB_Class3904]
-		[OpioidGuideline_ProjectKB_Class3905]
-		[OpioidGuideline_ProjectKB_Class3906]
-		[OpioidGuideline_ProjectKB_Class3907]))
+		[OpioidGuideline_ProjectKB_Class4148]
+		[OpioidGuideline_ProjectKB_Class4149]
+		[OpioidGuideline_ProjectKB_Class4150]
+		[OpioidGuideline_ProjectKB_Class4151]
+		[OpioidGuideline_ProjectKB_Class4152]
+		[OpioidGuideline_ProjectKB_Class4153]
+		[OpioidGuideline_ProjectKB_Class4154]
+		[OpioidGuideline_ProjectKB_Class4155]
+		[OpioidGuideline_ProjectKB_Class4156]
+		[OpioidGuideline_ProjectKB_Class4157]
+		[OpioidGuideline_ProjectKB_Class4158]
+		[OpioidGuideline_ProjectKB_Class4159]
+		[OpioidGuideline_ProjectKB_Class4160]
+		[OpioidGuideline_ProjectKB_Class4161]
+		[OpioidGuideline_ProjectKB_Class4162]
+		[OpioidGuideline_ProjectKB_Class4163]
+		[OpioidGuideline_ProjectKB_Class4164]
+		[OpioidGuideline_ProjectKB_Class4165]
+		[OpioidGuideline_ProjectKB_Class4166]))
 
-([OpioidGuideline_ProjectKB_Class3870] of  Map_Entry
+([OpioidGuideline_ProjectKB_Class4148] of  Map_Entry
+
+	(key "OpioidGuideline_Instance_100003")
+	(key_class "java.lang.String")
+	(value "520 220 60 60")
+	(value_class "java.awt.Rectangle"))
+
+([OpioidGuideline_ProjectKB_Class4149] of  Map_Entry
+
+	(key "OpioidGuideline_Class140006")
+	(key_class "java.lang.String")
+	(value "1220 380 60 60")
+	(value_class "java.awt.Rectangle"))
+
+([OpioidGuideline_ProjectKB_Class4150] of  Map_Entry
+
+	(key "OpioidGuideline_Instance_80257")
+	(key_class "java.lang.String")
+	(value "220 220 60 60")
+	(value_class "java.awt.Rectangle"))
+
+([OpioidGuideline_ProjectKB_Class4151] of  Map_Entry
+
+	(key "OpioidGuideline_Class160000")
+	(key_class "java.lang.String")
+	(value "45 94 60 60")
+	(value_class "java.awt.Rectangle"))
+
+([OpioidGuideline_ProjectKB_Class4152] of  Map_Entry
+
+	(key "OpioidGuideline_Instance_80259")
+	(key_class "java.lang.String")
+	(value "70 220 60 60")
+	(value_class "java.awt.Rectangle"))
+
+([OpioidGuideline_ProjectKB_Class4153] of  Map_Entry
+
+	(key "OpioidGuideline_Instance_90000")
+	(key_class "java.lang.String")
+	(value "370 220 60 60")
+	(value_class "java.awt.Rectangle"))
+
+([OpioidGuideline_ProjectKB_Class4154] of  Map_Entry
+
+	(key "OpioidGuideline_Instance_70214")
+	(key_class "java.lang.String")
+	(value "1170 70 60 60")
+	(value_class "java.awt.Rectangle"))
+
+([OpioidGuideline_ProjectKB_Class4155] of  Map_Entry
+
+	(key "OpioidGuideline_Instance_400526")
+	(key_class "java.lang.String")
+	(value "1420 220 60 60")
+	(value_class "java.awt.Rectangle"))
+
+([OpioidGuideline_ProjectKB_Class4156] of  Map_Entry
+
+	(key "OpioidGuideline_Instance_910005")
+	(key_class "java.lang.String")
+	(value "1720 220 60 60")
+	(value_class "java.awt.Rectangle"))
+
+([OpioidGuideline_ProjectKB_Class4157] of  Map_Entry
+
+	(key "OpioidGuideline_Instance_110000")
+	(key_class "java.lang.String")
+	(value "2170 220 60 60")
+	(value_class "java.awt.Rectangle"))
+
+([OpioidGuideline_ProjectKB_Class4158] of  Map_Entry
+
+	(key "OpioidGuideline_Instance_1090001")
+	(key_class "java.lang.String")
+	(value "1870 220 60 60")
+	(value_class "java.awt.Rectangle"))
+
+([OpioidGuideline_ProjectKB_Class4159] of  Map_Entry
+
+	(key "OpioidGuideline_Instance_220000")
+	(key_class "java.lang.String")
+	(value "1270 220 60 60")
+	(value_class "java.awt.Rectangle"))
+
+([OpioidGuideline_ProjectKB_Class4160] of  Map_Entry
+
+	(key "OpioidGuideline_Instance_160000")
+	(key_class "java.lang.String")
+	(value "1120 220 60 60")
+	(value_class "java.awt.Rectangle"))
+
+([OpioidGuideline_ProjectKB_Class4161] of  Map_Entry
+
+	(key "OpioidGuideline_Instance_120094")
+	(key_class "java.lang.String")
+	(value "970 220 60 60")
+	(value_class "java.awt.Rectangle"))
+
+([OpioidGuideline_ProjectKB_Class4162] of  Map_Entry
+
+	(key "OpioidGuideline_Instance_120093")
+	(key_class "java.lang.String")
+	(value "820 220 60 60")
+	(value_class "java.awt.Rectangle"))
+
+([OpioidGuideline_ProjectKB_Class4163] of  Map_Entry
+
+	(key "OpioidGuideline_Class100001")
+	(key_class "java.lang.String")
+	(value "2320 220 60 60")
+	(value_class "java.awt.Rectangle"))
+
+([OpioidGuideline_ProjectKB_Class4164] of  Map_Entry
+
+	(key "OpioidGuideline_Instance_130006")
+	(key_class "java.lang.String")
+	(value "1570 220 60 60")
+	(value_class "java.awt.Rectangle"))
+
+([OpioidGuideline_ProjectKB_Class4165] of  Map_Entry
+
+	(key "OpioidGuideline_Instance_120095")
+	(key_class "java.lang.String")
+	(value "670 220 60 60")
+	(value_class "java.awt.Rectangle"))
+
+([OpioidGuideline_ProjectKB_Class4166] of  Map_Entry
+
+	(key "OpioidGuideline_Instance_40013")
+	(key_class "java.lang.String")
+	(value "2020 220 60 60")
+	(value_class "java.awt.Rectangle"))
+
+([OpioidGuideline_ProjectKB_Class4167] of  Map_Entry
+
+	(key "InstanceGraphWidget.OpioidGuideline_Instance_30012.steps")
+	(key_class "java.lang.String")
+	(value "OpioidGuideline_ProjectKB_Class4147")
+	(value_class "java.util.Map"))
+
+([OpioidGuideline_ProjectKB_Class4168] of  Map
+
+	(entries
+		[OpioidGuideline_ProjectKB_Class4169]
+		[OpioidGuideline_ProjectKB_Class4170]
+		[OpioidGuideline_ProjectKB_Class4171]
+		[OpioidGuideline_ProjectKB_Class4172]
+		[OpioidGuideline_ProjectKB_Class4173]
+		[OpioidGuideline_ProjectKB_Class4174]
+		[OpioidGuideline_ProjectKB_Class4175]
+		[OpioidGuideline_ProjectKB_Class4176]
+		[OpioidGuideline_ProjectKB_Class4177]
+		[OpioidGuideline_ProjectKB_Class4178]
+		[OpioidGuideline_ProjectKB_Class4179]
+		[OpioidGuideline_ProjectKB_Class4180]
+		[OpioidGuideline_ProjectKB_Class4181]
+		[OpioidGuideline_ProjectKB_Class4182]
+		[OpioidGuideline_ProjectKB_Class4183]
+		[OpioidGuideline_ProjectKB_Class4184]
+		[OpioidGuideline_ProjectKB_Class4185]
+		[OpioidGuideline_ProjectKB_Class4186]
+		[OpioidGuideline_ProjectKB_Class4187]
+		[OpioidGuideline_ProjectKB_Class4188]
+		[OpioidGuideline_ProjectKB_Class4189]
+		[OpioidGuideline_ProjectKB_Class4190]
+		[OpioidGuideline_ProjectKB_Class4191]
+		[OpioidGuideline_ProjectKB_Class4192]
+		[OpioidGuideline_ProjectKB_Class4193]
+		[OpioidGuideline_ProjectKB_Class4194]
+		[OpioidGuideline_ProjectKB_Class4195]
+		[OpioidGuideline_ProjectKB_Class4196]
+		[OpioidGuideline_ProjectKB_Class4197]
+		[OpioidGuideline_ProjectKB_Class4198]
+		[OpioidGuideline_ProjectKB_Class4199]
+		[OpioidGuideline_ProjectKB_Class4200]
+		[OpioidGuideline_ProjectKB_Class4201]
+		[OpioidGuideline_ProjectKB_Class4202]
+		[OpioidGuideline_ProjectKB_Class4203]
+		[OpioidGuideline_ProjectKB_Class4204]
+		[OpioidGuideline_ProjectKB_Class4205]
+		[OpioidGuideline_ProjectKB_Class4206]))
+
+([OpioidGuideline_ProjectKB_Class4169] of  Map_Entry
 
 	(key "ChronicPainOpioid10-26-05_Instance_10029")
 	(key_class "java.lang.String")
 	(value "780 920 103 92")
 	(value_class "java.awt.Rectangle"))
 
-([OpioidGuideline_ProjectKB_Class3871] of  Map_Entry
+([OpioidGuideline_ProjectKB_Class4170] of  Map_Entry
 
 	(key "OpioidGuideline_Instance_350013")
 	(key_class "java.lang.String")
 	(value "800 660 103 112")
 	(value_class "java.awt.Rectangle"))
 
-([OpioidGuideline_ProjectKB_Class3872] of  Map_Entry
+([OpioidGuideline_ProjectKB_Class4171] of  Map_Entry
 
 	(key "OpioidGuideline_Instance_350014")
 	(key_class "java.lang.String")
 	(value "802 799 97 103")
 	(value_class "java.awt.Rectangle"))
 
-([OpioidGuideline_ProjectKB_Class3873] of  Map_Entry
+([OpioidGuideline_ProjectKB_Class4172] of  Map_Entry
 
 	(key "OpioidGuideline_Instance_380348")
 	(key_class "java.lang.String")
 	(value "1002 1754 97 92")
 	(value_class "java.awt.Rectangle"))
 
-([OpioidGuideline_ProjectKB_Class3874] of  Map_Entry
+([OpioidGuideline_ProjectKB_Class4173] of  Map_Entry
 
 	(key "OpioidGuideline_Instance_380347")
 	(key_class "java.lang.String")
 	(value "805 1768 91 64")
 	(value_class "java.awt.Rectangle"))
 
-([OpioidGuideline_ProjectKB_Class3875] of  Map_Entry
+([OpioidGuideline_ProjectKB_Class4174] of  Map_Entry
 
 	(key "OpioidGuideline_Instance_350011")
 	(key_class "java.lang.String")
 	(value "800 540 89 92")
 	(value_class "java.awt.Rectangle"))
 
-([OpioidGuideline_ProjectKB_Class3876] of  Map_Entry
+([OpioidGuideline_ProjectKB_Class4175] of  Map_Entry
 
 	(key "OpioidGuideline_Instance_270006")
 	(key_class "java.lang.String")
 	(value "1170 1020 60 60")
 	(value_class "java.awt.Rectangle"))
 
-([OpioidGuideline_ProjectKB_Class3877] of  Map_Entry
+([OpioidGuideline_ProjectKB_Class4176] of  Map_Entry
 
 	(key "OpioidGuideline_Instance_270004")
 	(key_class "java.lang.String")
 	(value "1170 870 60 60")
 	(value_class "java.awt.Rectangle"))
 
-([OpioidGuideline_ProjectKB_Class3878] of  Map_Entry
+([OpioidGuideline_ProjectKB_Class4177] of  Map_Entry
 
 	(key "OpioidGuideline_Instance_240000")
 	(key_class "java.lang.String")
 	(value "1020 1020 60 60")
 	(value_class "java.awt.Rectangle"))
 
-([OpioidGuideline_ProjectKB_Class3879] of  Map_Entry
+([OpioidGuideline_ProjectKB_Class4178] of  Map_Entry
 
 	(key "OpioidGuideline_Instance_270003")
 	(key_class "java.lang.String")
 	(value "1170 720 60 60")
 	(value_class "java.awt.Rectangle"))
 
-([OpioidGuideline_ProjectKB_Class3880] of  Map_Entry
+([OpioidGuideline_ProjectKB_Class4179] of  Map_Entry
 
 	(key "OpioidGuideline_Instance_541526")
 	(key_class "java.lang.String")
 	(value "1470 1820 60 60")
 	(value_class "java.awt.Rectangle"))
 
-([OpioidGuideline_ProjectKB_Class3881] of  Map_Entry
+([OpioidGuideline_ProjectKB_Class4180] of  Map_Entry
 
 	(key "OpioidGuideline_Instance_280000")
 	(key_class "java.lang.String")
 	(value "1157 1556 86 88")
 	(value_class "java.awt.Rectangle"))
 
-([OpioidGuideline_ProjectKB_Class3882] of  Map_Entry
+([OpioidGuideline_ProjectKB_Class4181] of  Map_Entry
 
 	(key "OpioidGuideline_Instance_270002")
 	(key_class "java.lang.String")
 	(value "1170 1170 60 60")
 	(value_class "java.awt.Rectangle"))
 
-([OpioidGuideline_ProjectKB_Class3883] of  Map_Entry
+([OpioidGuideline_ProjectKB_Class4182] of  Map_Entry
 
 	(key "OpioidGuideline_Instance_350009")
 	(key_class "java.lang.String")
 	(value "940 260 79 92")
 	(value_class "java.awt.Rectangle"))
 
-([OpioidGuideline_ProjectKB_Class3884] of  Map_Entry
+([OpioidGuideline_ProjectKB_Class4183] of  Map_Entry
 
 	(key "OpioidGuideline_Instance_370116")
 	(key_class "java.lang.String")
 	(value "360 1020 82 77")
 	(value_class "java.awt.Rectangle"))
 
-([OpioidGuideline_ProjectKB_Class3885] of  Map_Entry
+([OpioidGuideline_ProjectKB_Class4184] of  Map_Entry
 
 	(key "OpioidGuideline_Instance_380353")
 	(key_class "java.lang.String")
 	(value "600 2140 94 76")
 	(value_class "java.awt.Rectangle"))
 
-([OpioidGuideline_ProjectKB_Class3886] of  Map_Entry
+([OpioidGuideline_ProjectKB_Class4185] of  Map_Entry
 
 	(key "OpioidGuideline_Instance_430000")
 	(key_class "java.lang.String")
 	(value "740 1200 82 85")
 	(value_class "java.awt.Rectangle"))
 
-([OpioidGuideline_ProjectKB_Class3887] of  Map_Entry
+([OpioidGuideline_ProjectKB_Class4186] of  Map_Entry
 
 	(key "OpioidGuideline_Instance_350007")
 	(key_class "java.lang.String")
 	(value "812 60 77 81")
 	(value_class "java.awt.Rectangle"))
 
-([OpioidGuideline_ProjectKB_Class3888] of  Map_Entry
+([OpioidGuideline_ProjectKB_Class4187] of  Map_Entry
 
 	(key "OpioidGuideline_Instance_1030000")
 	(key_class "java.lang.String")
 	(value "760 1360 60 60")
 	(value_class "java.awt.Rectangle"))
 
-([OpioidGuideline_ProjectKB_Class3889] of  Map_Entry
+([OpioidGuideline_ProjectKB_Class4188] of  Map_Entry
 
 	(key "OpioidGuideline_Instance_370112")
 	(key_class "java.lang.String")
 	(value "540 1100 60 60")
 	(value_class "java.awt.Rectangle"))
 
-([OpioidGuideline_ProjectKB_Class3890] of  Map_Entry
+([OpioidGuideline_ProjectKB_Class4189] of  Map_Entry
 
 	(key "OpioidGuideline_Instance_350002")
 	(key_class "java.lang.String")
 	(value "520 680 152 105")
 	(value_class "java.awt.Rectangle"))
 
-([OpioidGuideline_ProjectKB_Class3891] of  Map_Entry
+([OpioidGuideline_ProjectKB_Class4190] of  Map_Entry
 
 	(key "OpioidGuideline_Instance_70130")
 	(key_class "java.lang.String")
 	(value "780 1040 60 60")
 	(value_class "java.awt.Rectangle"))
 
-([OpioidGuideline_ProjectKB_Class3892] of  Map_Entry
+([OpioidGuideline_ProjectKB_Class4191] of  Map_Entry
 
 	(key "ChronicPainOpioid10-26-05_Instance_20000")
 	(key_class "java.lang.String")
 	(value "370 1820 60 60")
 	(value_class "java.awt.Rectangle"))
 
-([OpioidGuideline_ProjectKB_Class3893] of  Map_Entry
+([OpioidGuideline_ProjectKB_Class4192] of  Map_Entry
 
 	(key "OpioidGuideline_Instance_40099")
 	(key_class "java.lang.String")
 	(value "804 1910 92 81")
 	(value_class "java.awt.Rectangle"))
 
-([OpioidGuideline_ProjectKB_Class3894] of  Map_Entry
+([OpioidGuideline_ProjectKB_Class4193] of  Map_Entry
 
 	(key "OpioidGuideline_Instance_541518")
 	(key_class "java.lang.String")
 	(value "1170 1749 60 103")
 	(value_class "java.awt.Rectangle"))
 
-([OpioidGuideline_ProjectKB_Class3895] of  Map_Entry
+([OpioidGuideline_ProjectKB_Class4194] of  Map_Entry
 
 	(key "ChronicPainOpioid10-26-05_Instance_20001")
 	(key_class "java.lang.String")
 	(value "70 970 60 60")
 	(value_class "java.awt.Rectangle"))
 
-([OpioidGuideline_ProjectKB_Class3896] of  Map_Entry
+([OpioidGuideline_ProjectKB_Class4195] of  Map_Entry
 
 	(key "OpioidGuideline_Instance_300000")
 	(key_class "java.lang.String")
 	(value "780 1120 60 60")
 	(value_class "java.awt.Rectangle"))
 
-([OpioidGuideline_ProjectKB_Class3897] of  Map_Entry
+([OpioidGuideline_ProjectKB_Class4196] of  Map_Entry
 
 	(key "OpioidGuideline_Instance_541523")
 	(key_class "java.lang.String")
 	(value "1470 1520 60 60")
 	(value_class "java.awt.Rectangle"))
 
-([OpioidGuideline_ProjectKB_Class3898] of  Map_Entry
+([OpioidGuideline_ProjectKB_Class4197] of  Map_Entry
 
 	(key "OpioidGuideline_Instance_541524")
 	(key_class "java.lang.String")
 	(value "1470 1370 60 60")
 	(value_class "java.awt.Rectangle"))
 
-([OpioidGuideline_ProjectKB_Class3899] of  Map_Entry
+([OpioidGuideline_ProjectKB_Class4198] of  Map_Entry
 
 	(key "OpioidGuideline_Instance_541525")
 	(key_class "java.lang.String")
 	(value "1470 1670 60 60")
 	(value_class "java.awt.Rectangle"))
 
-([OpioidGuideline_ProjectKB_Class3900] of  Map_Entry
+([OpioidGuideline_ProjectKB_Class4199] of  Map_Entry
 
 	(key "OpioidGuideline_Instance_330000")
 	(key_class "java.lang.String")
 	(value "380 780 97 87")
 	(value_class "java.awt.Rectangle"))
 
-([OpioidGuideline_ProjectKB_Class3901] of  Map_Entry
+([OpioidGuideline_ProjectKB_Class4200] of  Map_Entry
 
 	(key "OpioidGuideline_Instance_541521")
 	(key_class "java.lang.String")
 	(value "1320 1662 60 77")
 	(value_class "java.awt.Rectangle"))
 
-([OpioidGuideline_ProjectKB_Class3902] of  Map_Entry
+([OpioidGuideline_ProjectKB_Class4201] of  Map_Entry
 
 	(key "OpioidGuideline_Instance_310003")
 	(key_class "java.lang.String")
 	(value "1320 1220 60 60")
 	(value_class "java.awt.Rectangle"))
 
-([OpioidGuideline_ProjectKB_Class3903] of  Map_Entry
+([OpioidGuideline_ProjectKB_Class4202] of  Map_Entry
 
 	(key "OpioidGuideline_Instance_61")
 	(key_class "java.lang.String")
 	(value "570 1820 60 60")
 	(value_class "java.awt.Rectangle"))
 
-([OpioidGuideline_ProjectKB_Class3904] of  Map_Entry
+([OpioidGuideline_ProjectKB_Class4203] of  Map_Entry
 
 	(key "OpioidGuideline_Instance_310007")
 	(key_class "java.lang.String")
 	(value "1470 1220 60 60")
 	(value_class "java.awt.Rectangle"))
 
-([OpioidGuideline_ProjectKB_Class3905] of  Map_Entry
+([OpioidGuideline_ProjectKB_Class4204] of  Map_Entry
 
 	(key "OpioidGuideline_Instance_310006")
 	(key_class "java.lang.String")
 	(value "1470 1070 60 60")
 	(value_class "java.awt.Rectangle"))
 
-([OpioidGuideline_ProjectKB_Class3906] of  Map_Entry
+([OpioidGuideline_ProjectKB_Class4205] of  Map_Entry
 
 	(key "OpioidGuideline_Instance_310005")
 	(key_class "java.lang.String")
 	(value "1470 920 60 60")
 	(value_class "java.awt.Rectangle"))
 
-([OpioidGuideline_ProjectKB_Class3907] of  Map_Entry
+([OpioidGuideline_ProjectKB_Class4206] of  Map_Entry
 
 	(key "OpioidGuideline_Instance_30047")
 	(key_class "java.lang.String")
 	(value "220 970 60 60")
 	(value_class "java.awt.Rectangle"))
 
-([OpioidGuideline_ProjectKB_Class3908] of  Map_Entry
+([OpioidGuideline_ProjectKB_Class4207] of  Map_Entry
 
 	(key "InstanceGraphWidget.ChronicPainOpioid9-23-05_Instance_3.steps")
 	(key_class "java.lang.String")
-	(value "OpioidGuideline_ProjectKB_Class3869")
+	(value "OpioidGuideline_ProjectKB_Class4168")
 	(value_class "java.util.Map"))
 
-([OpioidGuideline_ProjectKB_Class3909] of  Map
+([OpioidGuideline_ProjectKB_Class4208] of  Map
 
 	(entries
-		[OpioidGuideline_ProjectKB_Class3910]
-		[OpioidGuideline_ProjectKB_Class3911]
-		[OpioidGuideline_ProjectKB_Class3912]))
+		[OpioidGuideline_ProjectKB_Class4209]
+		[OpioidGuideline_ProjectKB_Class4210]
+		[OpioidGuideline_ProjectKB_Class4211]))
 
-([OpioidGuideline_ProjectKB_Class3910] of  Map_Entry
+([OpioidGuideline_ProjectKB_Class4209] of  Map_Entry
 
 	(key "ChronicPainOpioid9-23-05_Instance_10002")
 	(key_class "edu.stanford.smi.protege.model.Frame")
 	(value "34 25 205 127")
 	(value_class "java.awt.Rectangle"))
 
-([OpioidGuideline_ProjectKB_Class3911] of  Map_Entry
+([OpioidGuideline_ProjectKB_Class4210] of  Map_Entry
 
 	(key "ChronicPainOpioid9-23-05_Instance_10003")
 	(key_class "edu.stanford.smi.protege.model.Frame")
 	(value "50 50 205 127")
 	(value_class "java.awt.Rectangle"))
 
-([OpioidGuideline_ProjectKB_Class3912] of  Map_Entry
+([OpioidGuideline_ProjectKB_Class4211] of  Map_Entry
 
 	(key "ChronicPainOpioid9-23-05_Instance_10007")
 	(key_class "edu.stanford.smi.protege.model.Frame")
 	(value "-78 601 205 127")
 	(value_class "java.awt.Rectangle"))
 
-([OpioidGuideline_ProjectKB_Class3913] of  Map_Entry
+([OpioidGuideline_ProjectKB_Class4212] of  Map_Entry
 
 	(key "InstanceDisplay.yellow_stickies")
 	(key_class "java.lang.String")
-	(value "OpioidGuideline_ProjectKB_Class3909")
+	(value "OpioidGuideline_ProjectKB_Class4208")
 	(value_class "java.util.Map"))
 
-([OpioidGuideline_ProjectKB_Class3914] of  Map
+([OpioidGuideline_ProjectKB_Class4213] of  Map
 )
 
-([OpioidGuideline_ProjectKB_Class3915] of  Map_Entry
+([OpioidGuideline_ProjectKB_Class4214] of  Map_Entry
 
 	(key "InstanceGraphWidget.OpioidGuideline_Instance_910001.steps")
 	(key_class "java.lang.String")
-	(value "OpioidGuideline_ProjectKB_Class3914")
+	(value "OpioidGuideline_ProjectKB_Class4213")
 	(value_class "java.util.Map"))
 
 ([OpioidGuideline_ProjectKB_Class43136] of  Property_List

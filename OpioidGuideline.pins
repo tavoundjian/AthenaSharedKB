@@ -1,4 +1,4 @@
-; Tue Apr 12 16:27:07 PDT 2016
+; Tue Apr 26 21:08:27 PDT 2016
 ; 
 ;+ (version "3.5")
 ;+ (build "Build 663")
@@ -3894,7 +3894,8 @@
 	(display_location Detail)
 	(label "Detail: Order EKG prior to starting methadone")
 	(message "Prior to starting methadone, consider obtaining an ECG to measure the QTc interval. Review current medications to determine if methadone may interact with any of them to prolong QTc interval. Educate patients about this risk as well as the arrhythmia risk.")
-	(message_type OpioidTreatment))
+	(message_type OpioidTreatment)
+	(priority 2))
 
 ([OpioidGuideline_Class120002] of  Consultation_Selection
 
@@ -6163,9 +6164,9 @@
 ([OpioidGuideline_Class30003] of  On_Screen_Message
 
 	(display_location Detail)
-	(label "NOT IN USE (already a collaterla action)Tips for methadone initiation")
+	(label "CHECK IF IN USE Tips for methadone initiation")
 	(main_message [OpioidGuideline_Class30004])
-	(message "Advise patient of overdose risk.\nSLOW dose escalations are necessary.  Effects of a stable dose will increase for 3-7 days.\nHighly bioavailable (85-100%), IV and PO doses will have similar effects.  \nHighly titratable—Use liquid for low doses and tabs for higher doses.  \n\nIn older patients, peak effects will occur later.   \nMay be helpful to initiate with a bedtime dose to avoid accidents from sedation.\nTitration from high doses of other opioids to methadone require caution.\nConsult pain management if in doubt.")
+	(message "Advise patient of overdose risk. <br>\nSLOW dose escalations are necessary.  Effects of a stable dose will increase for 3-7 days. <br>\nHighly bioavailable (85-100%), IV and PO doses will have similar effects.  <br>\nHighly titratable—Use liquid for low doses and tabs for higher doses.  <br>\n<br>\nIn older patients, peak effects will occur later.   <br>\nMay be helpful to initiate with a bedtime dose to avoid accidents from sedation.<br>\nTitration from high doses of other opioids to methadone require caution.<br>\nConsult pain management if in doubt.")
 	(message_type OpioidTreatment))
 
 ([OpioidGuideline_Class300030] of  Conditional_On_Screen_Message
@@ -10445,7 +10446,7 @@
 ([OpioidGuideline_Instance_320006] of  Conditional_On_Screen_Message
 
 	(description "If presence  of indications such as lung, liver, or kidney problems, issue the slow methadone schedule")
-	(display_location Summary)
+	(display_location Detail)
 	(label "Initiate Methadone continuous pain: Absence of Opiates and Presence of Lung, Kidney, Liver disease or >= 65")
 	(message "Recommended for continuous pain.")
 	(message_type OpioidTreatment)
@@ -10958,7 +10959,7 @@
 
 ([OpioidGuideline_Instance_360001] of  On_Screen_Message
 
-	(display_location Summary)
+	(display_location Detail)
 	(label "Initiate Fentanyl: continuous pain")
 	(message "Recommended for continuous pain.")
 	(message_type OpioidTreatment))
@@ -13102,7 +13103,7 @@
 	(display_location Detail)
 	(label "Education for Fentanyl -detail")
 	(main_message [OpioidGuideline_Instance_350120])
-	(message "- CAUTION in opioid naïve patients—ODs have been reported\n- Apply to flat skin surface area without hair, hold about a minute to allow patch to stick better.\n- Do not shave area, may use scissors to decrease hair length\n- Increased temperatures result in increased absorption\n- Decreased temperature result in decreased absorption\n- Peak effect in about 17 hours\n- Most of medication gone within 24 hours after patch removed\n- Remove old patch before applying new one to avoid overdose")
+	(message "- CAUTION in opioid naïve patients—ODs have been reported <br>\n- Apply to flat skin surface area without hair, hold about a minute to allow patch to stick better. <br>\n- Do not shave area, may use scissors to decrease hair length <br>\n- Increased temperatures result in increased absorption <br>\n- Decreased temperature result in decreased absorption <br>\n- Peak effect in about 17 hours <br>\n- Most of medication gone within 24 hours after patch removed <br>\n- Remove old patch before applying new one to avoid overdose")
 	(message_type OpioidTreatment)
 	(priority 2)
 	(rule_in_condition [OpioidGuideline_Instance_50006]))
@@ -13320,50 +13321,56 @@
 
 ([OpioidGuideline_Instance_490527] of  Conditional_On_Screen_Message
 
-	(display_location DetailBullet)
+	(display_location Detail)
 	(label "Detail: Initiate acetaminophen_codeine - absence lung, liver, kidney diseas &<65yrs detail")
-	(message "Formulation: acetaminophen 325 mg with codeine 30 mg\nSuggested schedule:  1 tid up to 2 qid (max dose acetaminophen: 4000 mg/day in patients with lung, kidney or liver disease or patients who are over 65)\nComments: 10% of the population does not metabolize codeine to the active metabolite.")
+	(message "Formulation: acetaminophen 325 mg with codeine 30 mg<br>\nSuggested schedule:  1 tid up to 2 qid (max dose acetaminophen: 4000 mg/day in patients with lung, kidney or liver disease or patients who are over 65)<br>\n<br>\nComments: 10% of the population does not metabolize codeine to the active metabolite.")
 	(message_type OpioidTreatment)
+	(priority 1)
 	(rule_in_condition [OpioidGuideline_Instance_470850]))
 
 ([OpioidGuideline_Instance_490528] of  Conditional_On_Screen_Message
 
 	(display_location Detail)
 	(label "Detail: initiate acetaminophen_codeine - presence lung, liver or renal disease age>=65yrs")
-	(message "Formulation: acetaminophen 325 mg with codeine 30 mg\nSuggested schedule:  1 tid up to 2 qid (max dose acetaminophen: 2000 mg/day in patients with lung, kidney or liver disease or patients who are over 65)\nComments: 10% of the population does not metabolize codeine to the active metabolite.")
+	(message "Formulation: acetaminophen 325 mg with codeine 30 mg<br>\nSuggested schedule:  1 tid up to 2 qid (max dose acetaminophen: 2000 mg/day in patients with lung, kidney or liver disease or patients who are over 65)<br>\n<br>\nComments: 10% of the population does not metabolize codeine to the active metabolite.")
 	(message_type OpioidTreatment)
+	(priority 1)
 	(rule_in_condition [OpioidGuideline_Instance_321014]))
 
 ([OpioidGuideline_Instance_490529] of  Conditional_On_Screen_Message
 
 	(display_location Detail)
 	(label "Detail: initiate Oxycodone_Short_Acting -Absence of Lung, Kidney or Liver disease and< 65")
-	(message "Formulation: oxycodone 5mg & acetaminophen 325 mg. \nSuggested schedule: 1 tid up to 2 qid as needed (max dose acetaminophen: 4000 mg/day in young, healthy patient)\nComments: If used without acetaminophen there is no ceiling.  Needs schedule II script.")
+	(message "Formulation: oxycodone 5mg & acetaminophen 325 mg. <br>\nSuggested schedule: 1 tid up to 2 qid as needed (max dose acetaminophen: 4000 mg/day in young, healthy patient)<br>\n<br>\nComments: If used without acetaminophen there is no ceiling.  Needs schedule II script.")
 	(message_type OpioidTreatment)
+	(priority 1)
 	(rule_in_condition [OpioidGuideline_Instance_470850]))
 
 ([OpioidGuideline_Instance_490530] of  Conditional_On_Screen_Message
 
 	(display_location Detail)
 	(label "Detail: initiate Oxycodone_Short_Acting - Presence of Lung, Kidney, or Liver disease or >= 65")
-	(message "Formulation: oxycodone 5mg & acetaminophen 325 mg. \nSuggested schedule: 1 tid up to 2 qid as needed (max dose acetaminophen: 2000 mg/day in patient with lung, kidney, liver disease or if over age 65)\nComments: If used without acetaminophen there is no ceiling.  Needs schedule II script.")
+	(message "Formulation: oxycodone 5mg & acetaminophen 325 mg. <br>\nSuggested schedule: 1 tid up to 2 qid as needed (max dose acetaminophen: 2000 mg/day in patient with lung, kidney, liver disease or if over age 65)<br>\n<br>\nComments: If used without acetaminophen there is no ceiling.  Needs schedule II script.")
 	(message_type OpioidTreatment)
+	(priority 1)
 	(rule_in_condition [OpioidGuideline_Instance_321014]))
 
 ([OpioidGuideline_Instance_490531] of  Conditional_On_Screen_Message
 
 	(display_location Detail)
 	(label "Detail:  Initiate Hydrocodone_Short_Acting -absence of liver, lung, kidney disease and <65yrs")
-	(message "Formulation: hydrocodone 5mg & acetaminophen 500mg\nSuggested schedule: 1 tid escalating to 2 qid as needed (max dose acetaminophen: 4000 mg/day in young, healthy patient)\nComment: This approach is most suitable for patients whose pain widely fluctuates.")
+	(message "Formulation: hydrocodone 5mg & acetaminophen 500mg<br>\nSuggested schedule: 1 tid escalating to 2 qid as needed (max dose acetaminophen: 4000 mg/day in young, healthy patient)<br>\n<br>\nComment: This approach is most suitable for patients whose pain widely fluctuates.")
 	(message_type OpioidTreatment)
+	(priority 1)
 	(rule_in_condition [OpioidGuideline_Instance_470850]))
 
 ([OpioidGuideline_Instance_490532] of  Conditional_On_Screen_Message
 
 	(display_location Detail)
 	(label "Detail: Initiate Hydrocodone_Short_Acting - presence lung, kidney, lung disease or age >=65")
-	(message "Formulation: hydrocodone 5mg & acetaminophen 500mg\nSuggested schedule:1 tid escalating to 2 qid as needed (max dose acetaminophen: 2000 mg/day in patient with lung, kidney or liver disease or patients who are over 65)\nComments:  This approach is most suitable for patients whose pain widely fluctuates.")
+	(message "Formulation: hydrocodone 5mg & acetaminophen 500mg<br>\nSuggested schedule:1 tid escalating to 2 qid as needed (max dose acetaminophen: 2000 mg/day in patient with lung, kidney or liver disease or patients who are over 65)<br>\n<br>\nComments:  This approach is most suitable for patients whose pain widely fluctuates.")
 	(message_type OpioidTreatment)
+	(priority 1)
 	(rule_in_condition [OpioidGuideline_Instance_321014]))
 
 ([OpioidGuideline_Instance_490533] of  Conditional_On_Screen_Message
@@ -14418,15 +14425,15 @@
 
 ([OpioidGuideline_Instance_560000] of  On_Screen_Message
 
-	(display_location Summary)
+	(display_location Detail)
 	(label "Initiate fentanyl: formulation")
-	(message "Formulation: 25mcg/hr patch\nSuggested schedule: Start with 25 mcg/hr patch. Instruct patient to change patch every 3 days. Increase 25 mcg/hr patch every 9 days, up to 100 mcg/hr as necessary.\nComments: Follow up with patient by phone at end of 2-3 weeks")
+	(message "Formulation: 25mcg/hr patch <br>\nSuggested schedule: Start with 25 mcg/hr patch. Instruct patient to change patch every 3 days. Increase 25 mcg/hr patch every 9 days, up to 100 mcg/hr as necessary. <br>\nComments: Follow up with patient by phone at end of 2-3 weeks")
 	(message_type OpioidTreatment)
-	(priority 2))
+	(priority 1))
 
 ([OpioidGuideline_Instance_560001] of  Conditional_On_Screen_Message
 
-	(display_location Summary)
+	(display_location Detail)
 	(label "Increase Hydrocodone")
 	(message "Increase dose by 25-100% of current dose as indicated by patient characteristics.  Titrations of less than 25% are inappropriate.")
 	(message_type OpioidTreatment)
@@ -14434,10 +14441,11 @@
 
 ([OpioidGuideline_Instance_560002] of  Conditional_On_Screen_Message
 
-	(display_location Summary)
+	(display_location Detail)
 	(label "Initiate/substitute Methadone formulation: Absence of Opiates and  Presence of Lung, Kidney, or Liver disease or >= 65")
-	(message "Formulation: methadone 5mg tab\nSuggested schedule:\nWeek 1: 1 x 5mg tab qd (5 mg/day)\nWeek 2: 1x 5mg tab bid (10 mg/day)\nWeek 3: 1 x 5mg tab tid (15 mg/day)\n<br>\nComments: Follow up with patient by phone at end of 2-3 weeks.   Titrate to level necessary for adequate pain relief.")
+	(message "Formulation: methadone 5mg tab<br>\nSuggested schedule:<br>\nWeek 1: 1 x 5mg tab qd (5 mg/day)<br>\nWeek 2: 1x 5mg tab bid (10 mg/day)<br>\nWeek 3: 1 x 5mg tab tid (15 mg/day)<br>\n<br>\nComments: Follow up with patient by phone at end of 2-3 weeks.   Titrate to level necessary for adequate pain relief.")
 	(message_type OpioidTreatment)
+	(priority 1)
 	(rule_in_condition [OpioidGuideline_Instance_810004]))
 
 ([OpioidGuideline_Instance_560004] of  Presence_Criterion
@@ -14449,42 +14457,47 @@
 
 ([OpioidGuideline_Instance_560005] of  Conditional_On_Screen_Message
 
-	(display_location Summary)
+	(display_location Detail)
 	(label "Initiate Methadone Absence of Lung, Kidney, Liver disease and age<65")
-	(message "Formulation: methadone 5mg tab\nSuggested schedule:\nWeek 1: 1 x 5mg tab bid (10 mg/day)\nWeek 2: 1x 5mg tab tid (15 mg/day)\nWeek 3: 2 x 5mg tab bid (20 mg/day)\nComments: Follow up with patient by phone at end of 2-3 weeks.   Titrate to level necessary for adequate pain relief.")
+	(message "Formulation: methadone 5mg tab<br>\nSuggested schedule:<br>\nWeek 1: 1 x 5mg tab bid (10 mg/day)<br>\nWeek 2: 1x 5mg tab tid (15 mg/day)<br>\nWeek 3: 2 x 5mg tab bid (20 mg/day)<br>\n<br>\nComments: Follow up with patient by phone at end of 2-3 weeks.   Titrate to level necessary for adequate pain relief.")
 	(message_type OpioidTreatment)
+	(priority 1)
 	(rule_in_condition [OpioidGuideline_Instance_810016]))
 
 ([OpioidGuideline_Instance_560006] of  Conditional_On_Screen_Message
 
 	(display_location Detail)
 	(label "Detail: initiate morphine CR/SR absence lung, kidney and liver disease age<65")
-	(message "Formulation:  Morphine CR/SR 15mg\nSuggested schedule:\nFirst 3 days 1 x 15 mg tab bid (30 mg/day)\nNext 3 days 1 x 15 mg tab tid (45 mg/day)\nNext 3 days 2 x 15 mg tab bid (60 mg/day)\nComments: Follow up with patient by phone at end of 2-3 weeks.  Titrate to level necessary for adequate pain relief.")
+	(message "Formulation:  Morphine CR/SR 15mg <br>\nSuggested schedule: <br>\nFirst 3 days 1 x 15 mg tab bid (30 mg/day) <br>\nNext 3 days 1 x 15 mg tab tid (45 mg/day) <br>\nNext 3 days 2 x 15 mg tab bid (60 mg/day) <br>\n<br>\nComments: Follow up with patient by phone at end of 2-3 weeks.  Titrate to level necessary for adequate pain relief.")
 	(message_type ClinicalWarning)
+	(priority 1)
 	(rule_in_condition [OpioidGuideline_Instance_470850]))
 
 ([OpioidGuideline_Instance_560007] of  Conditional_On_Screen_Message
 
 	(display_location Detail)
 	(label "Detail:  Initiate Morphine CR/SR presence of lung, liver, kidney disease or age >=65")
-	(message "Formulation: morphine CR/SR 15mg\nSuggested schedule:\nFirst week: 1 x 15 mg tab bid (30 mg/day)\nSecond week: 1 x 15 mg tab tid (45 mg/day)\nThird week: 2 x 15 mg tab bid (60 mg/day)\n\nComments: Follow up with patient by phone at end of 2-3 weeks.  Titrate to level necessary for adequate pain relief.")
+	(message "Formulation: morphine CR/SR 15mg <br>\nSuggested schedule: <br>\nFirst week: 1 x 15 mg tab bid (30 mg/day)<br>\nSecond week: 1 x 15 mg tab tid (45 mg/day)<br>\nThird week: 2 x 15 mg tab bid (60 mg/day)<br>\n<br>\nComments: Follow up with patient by phone at end of 2-3 weeks.  Titrate to level necessary for adequate pain relief.")
 	(message_type OpioidTreatment)
+	(priority 1)
 	(rule_in_condition [OpioidGuideline_Instance_321014]))
 
 ([OpioidGuideline_Instance_560008] of  Conditional_On_Screen_Message
 
 	(display_location Detail)
 	(label "Detail: Initiate Oxycodone absence of lung. kidney, liver and <65 years")
-	(message "Formulation: Oxycodone Controlled Release 10 mg\nSuggested schedule:\nFirst 3 days: 1 x 10mg tab 1 PO bid (20 mg/day) \nNext 3 days: 1 x 10mg tab 1 PO tid (30 mg/day) \nNext 3 days: 2 x 10mg tab 1 PO bid (40 mg/day) \n\nComments: Follow up with patient by phone at 2 -3 weeks. Titrate to level necessary for adequate pain relief.")
+	(message "Formulation: Oxycodone Controlled Release 10 mg <br>\nSuggested schedule: <br>\nFirst 3 days: 1 x 10mg tab 1 PO bid (20 mg/day) <br> \nNext 3 days: 1 x 10mg tab 1 PO tid (30 mg/day) <br>\nNext 3 days: 2 x 10mg tab 1 PO bid (40 mg/day) <br>\n<br>\nComments: Follow up with patient by phone at 2 -3 weeks. Titrate to level necessary for adequate pain relief.")
 	(message_type OpioidTreatment)
+	(priority 1)
 	(rule_in_condition [OpioidGuideline_Instance_470850]))
 
 ([OpioidGuideline_Instance_570000] of  Conditional_On_Screen_Message
 
 	(display_location Detail)
 	(label "Detail: Initiate Oxycodone presence of lung, kidney, liver disease or age>=65")
-	(message "Formulation: Oxycodone Controlled Release 10 mg.\nSuggested schedule: \nFirst week: 1 x 10 mg tab bid (20 mg/day)\nNext week: 1 x 10mg tab tid (30 mg/day) \nNext week: 2 x 10mg tab bid (40 mg/dday)\nFollow up by phone at end of 2-3 weeks\nComments: Follow up with patient by phone at end of 2-3 weeks.  If used without acetaminophen there is no ceiling.  Needs schedule II script. Titrate to level necessary for adequate pain relief.")
+	(message "Formulation: Oxycodone Controlled Release 10 mg. <br>\nSuggested schedule:  <br>\nFirst week: 1 x 10 mg tab bid (20 mg/day)<br>\nNext week: 1 x 10mg tab tid (30 mg/day) <br>\nNext week: 2 x 10mg tab bid (40 mg/dday)<br>\nFollow up by phone at end of 2-3 weeks<br>\n<br>\n\nComments: Follow up with patient by phone at end of 2-3 weeks.  If used without acetaminophen there is no ceiling.  Needs schedule II script. Titrate to level necessary for adequate pain relief.")
 	(message_type OpioidTreatment)
+	(priority 1)
 	(rule_in_condition [OpioidGuideline_Instance_321014]))
 
 ([OpioidGuideline_Instance_570005] of  PrecautionPrioritySetting
@@ -14644,6 +14657,7 @@
 	(label "Increase low dose morphine and Presence of Lung, Kidney or Liver disease and > 65")
 	(message "Titrate total daily dose of morphine CR/SR up 10%-25% - Use 15-30 mg tab increments bid to tid, increasing dose weekly up to a max dose of 240 mg/day.")
 	(message_type Orders_Medication+recommendation)
+	(priority 1)
 	(rule_in_condition [OpioidGuideline_Instance_820002]))
 
 ([OpioidGuideline_Instance_6] of  PrecautionPrioritySetting
@@ -16325,26 +16339,28 @@
 
 ([OpioidGuideline_Instance_810021] of  Conditional_On_Screen_Message
 
-	(display_location Summary)
+	(display_location Detail)
 	(label "Increase high dose methadone and Absence of Lung, Kidney or Liver disease and <65")
 	(message "Titrate Methadone up 25%-50% - Use 5 mg tab increments bid to tid, increasing dose weekly up to a max dose of 60 mg/day.")
 	(message_type OpioidTreatment)
+	(priority 1)
 	(rule_in_condition [OpioidGuideline_Instance_810018]))
 
 ([OpioidGuideline_Instance_820000] of  On_Screen_Message
 
-	(display_location Summary)
+	(display_location Detail)
 	(label "Initiate Fentanyl: tips")
-	(message "Fentanyl tips:\n- CAUTION in opioid naïve patients—ODs have been reported\n- Apply to flat skin surface area without hair, hold about a minute to allow patch to stick better.\n- Do not shave area, may use scissors to decrease hair length\n- Increased temperatures result in increased absorption\n- Decreased temperature result in decreased absorption\n- Peak effect in about 17 hours\n- Most of medication gone within 24 hours after patch removed\n- Remove old patch before applying new one to avoid overdose")
+	(message "Fentanyl tips:\n- CAUTION in opioid naïve patients—ODs have been reported <br>\n- Apply to flat skin surface area without hair, hold about a minute to allow patch to stick better. <br>\n- Do not shave area, may use scissors to decrease hair length <br>\n- Increased temperatures result in increased absorption <br>\n- Decreased temperature result in decreased absorption <br>\n- Peak effect in about 17 hours <br>\n- Most of medication gone within 24 hours after patch removed <br>\n- Remove old patch before applying new one to avoid overdose")
 	(message_type OpioidTreatment)
 	(priority 2))
 
 ([OpioidGuideline_Instance_820001] of  Conditional_On_Screen_Message
 
-	(display_location Summary)
+	(display_location Detail)
 	(label "Increase low dose methadone and Presence of Lung, Kidney or Liver disease and > 65")
 	(message "Titrate methadone up 10%-25% - Use 5 mg tab increments bid to tid, increasing dose weekly up to a max dose of 60 mg/day.")
 	(message_type OpioidTreatment)
+	(priority 1)
 	(rule_in_condition [OpioidGuideline_Instance_321014]))
 
 ([OpioidGuideline_Instance_820002] of  N_ary_Criterion
@@ -16361,6 +16377,7 @@
 	(label "Increase high dose morphine and Absence of Lung, Kidney or Liver disease and <65")
 	(message "Titrate morphine CR/SR up 25%-50% - Use 15-30 mg tab increments bid to tid, increasing dose weekly up to a max dose of 240 mg/day.")
 	(message_type OpioidTreatment)
+	(priority 1)
 	(rule_in_condition [OpioidGuideline_Instance_810018]))
 
 ([OpioidGuideline_Instance_820004] of  Collateral_Action
@@ -16373,18 +16390,20 @@
 
 ([OpioidGuideline_Instance_820005] of  Conditional_On_Screen_Message
 
-	(display_location Summary)
+	(display_location Detail)
 	(label "Increase high dose oxycodone and Absence of Lung, Kidney or Liver disease and <65")
 	(message "Titrate oxycodone up 25%-50% - Use 10 mg tab increments bid to tid, increasing dose weekly up to a max dose of 240 mg/day.")
 	(message_type OpioidTreatment)
+	(priority 1)
 	(rule_in_condition [OpioidGuideline_Instance_810018]))
 
 ([OpioidGuideline_Instance_820006] of  Conditional_On_Screen_Message
 
-	(display_location Summary)
+	(display_location Detail)
 	(label "Increase low dose oxycodone and Presence of Lung, Kidney or Liver disease and >65")
 	(message "Titrate oxycodone up 10%-25% - Use 10 mg tab increments bid to tid, increasing dose weekly up to a max dose of 240 mg/day.")
 	(message_type OpioidTreatment)
+	(priority 1)
 	(rule_in_condition [OpioidGuideline_Instance_820002]))
 
 ([OpioidGuideline_Instance_820007] of  Collateral_Action
@@ -16418,11 +16437,10 @@
 
 ([OpioidGuideline_Instance_830001] of  On_Screen_Message
 
-	(display_location Summary)
+	(display_location Detail)
 	(label "methadone tips")
-	(message "Advise patient of risk of overdosing.\nTakes 3-7 days for a stable dose of medication to reach max effect. \nSLOW escalations are necessary. \nHighly bioavailable (85-100%), IV and PO doses may be quite similar.  \nHighly titratable—may go quite low using liquid or higher with tabs.  \n\nThe older the patient, the longer it is likely to reach peak effect.  \nMay be helpful to initiate with a bedtime dose as methadone can be quite sedating.\nTitration from high doses of other opioids to methadone must be done CAUTIOUSLY.\nAdvise consulting pain management if in doubt.")
-	(message_type OpioidTreatment)
-	(priority 2))
+	(message "Advise patient of risk of overdosing. <br>\nTakes 3-7 days for a stable dose of medication to reach max effect. <br>\nSLOW escalations are necessary. <br>\nHighly bioavailable (85-100%), IV and PO doses may be quite similar.  <br>\nHighly titratable—may go quite low using liquid or higher with tabs.  <br>\n<br>\nThe older the patient, the longer it is likely to reach peak effect.  <br>\nMay be helpful to initiate with a bedtime dose as methadone can be quite sedating.<br>\nTitration from high doses of other opioids to methadone must be done CAUTIOUSLY.<br>\nAdvise consulting pain management if in doubt.")
+	(message_type OpioidTreatment))
 
 ([OpioidGuideline_Instance_840000] of  Collateral_Action
 
@@ -16459,11 +16477,11 @@
 
 ([OpioidGuideline_Instance_850001] of  Conditional_On_Screen_Message
 
-	(display_location Summary)
+	(display_location Detail)
 	(label "Titrate up short acting to max level")
 	(message "Increase dose by 25-100% of current dose as indicated by patient characteristics.  Titrations of less than 25% are inappropriate.")
 	(message_type OpioidTreatment)
-	(priority 2)
+	(priority 1)
 	(rule_in_condition [OpioidGuideline_Instance_430235]))
 
 ([OpioidGuideline_Instance_850002] of  Collateral_Action
@@ -16990,10 +17008,11 @@
 
 ([OpioidGuideline_Instance_960003] of  On_Screen_Message
 
-	(display_location Summary)
+	(display_location Detail)
 	(label "Fentanyl, increase dose")
 	(message "Increase 25 mcg/hr patch every 9 days, up to max dose of 100 mcg/hr.")
-	(message_type OpioidTreatment))
+	(message_type OpioidTreatment)
+	(priority 1))
 
 ([OpioidGuideline_Instance_970000] of  Conditional_On_Screen_Message
 

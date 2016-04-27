@@ -1,4 +1,4 @@
-; Tue Apr 12 16:27:06 PDT 2016
+; Tue Apr 26 21:08:27 PDT 2016
 ; 
 ;+ (version "3.5")
 ;+ (build "Build 663")
@@ -4061,11 +4061,11 @@
 (defclass Adverse+effects
 	(is-a Findings)
 	(role concrete)
-	(single-slot Severe
+	(single-slot Mild
 		(type STRING)
 ;+		(cardinality 0 1)
 		(create-accessor read-write))
-	(single-slot Mild
+	(single-slot Severe
 		(type STRING)
 ;+		(cardinality 0 1)
 		(create-accessor read-write))
